@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', sans-serif;
+    background-image: url(43316.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+header input{
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px 16px 16px 16px;
+    border-bottom: 2px solid #DF8E00;
+    color: #313131;
+    font-size: 25px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+header input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.location  {
+    padding: 25px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.curr  {
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.location .city {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.location .date {
+    color: #FFF;
+    font-size: 20px;
+}
+.curr .temperature  {
+    color: #FFF;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 2px 9px rgba(0, 0, 0, 0.6);
+}
+.curr .temperature span {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 100px;
+}
+.curr .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+.curr .range {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
